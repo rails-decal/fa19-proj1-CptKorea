@@ -10,7 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_10_15_052229) do
+ActiveRecord::Schema.define(version: 2019_11_02_050614) do
+
+  create_table "pokemons", force: :cascade do |t|
+    t.string "name"
+    t.integer "level"
+    t.integer "trainer_id"
+    t.integer "ndex"
+    t.integer "health"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["trainer_id"], name: "index_pokemons_on_trainer_id"
+  end
 
   create_table "trainers", force: :cascade do |t|
     t.string "name"
@@ -30,4 +41,5 @@ ActiveRecord::Schema.define(version: 2019_10_15_052229) do
     t.index ["reset_password_token"], name: "index_trainers_on_reset_password_token", unique: true
   end
 
+  add_foreign_key "pokemons", "trainers"
 end

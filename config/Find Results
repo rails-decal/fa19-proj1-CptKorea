@@ -1,0 +1,33 @@
+Searching 567 files for "button_to"
+
+/Users/Taejin/ruby/fa19-proj1-CptKorea/ANSWERS.md:
+    7: # Question 2a: What does the following line do "<%= button_to "Throw a Pokeball!", capture_path(id: @pokemon), :class => "button medium", :method => :patch %>"? Be specific about what "capture_path(id: @pokemon)" is doing. If you're having trouble, look at the Help section in the README.
+
+/Users/Taejin/ruby/fa19-proj1-CptKorea/README.md:
+   85: - In `views/home/index.html.erb`, replace the div button with the following code: `<%= button_to "Throw a Pokeball!", capture_path(id: @pokemon), :class => "button medium", :method => :patch %>`
+  210: To learn more about what `button_to` actually does, read up on its [documentation here](http://apidock.com/rails/ActionView/Helpers/UrlHelper/button_to) and [maybe this Stack Overflow](http://stackoverflow.com/questions/12475299/ruby-on-rails-button-to-link-to) post as well.
+
+/Users/Taejin/ruby/fa19-proj1-CptKorea/app/views/devise/registrations/edit.html.erb:
+   36: <%= button_to "Cancel my account", registration_path(resource_name), :data => { :confirm => "Are you sure?" }, :method => :delete, :class => 'button right' %>
+
+/Users/Taejin/ruby/fa19-proj1-CptKorea/app/views/home/index.html.erb:
+   10:   <div><%= button_to "Throw a Pokeball!", capture_path(id: @pokemon), :class => "button medium", :method => :patch %></div>
+
+6 matches across 4 files
+
+
+Searching 567 files for "capture_path"
+
+/Users/Taejin/ruby/fa19-proj1-CptKorea/ANSWERS.md:
+    7: # Question 2a: What does the following line do "<%= button_to "Throw a Pokeball!", capture_path(id: @pokemon), :class => "button medium", :method => :patch %>"? Be specific about what "capture_path(id: @pokemon)" is doing. If you're having trouble, look at the Help section in the README.
+
+/Users/Taejin/ruby/fa19-proj1-CptKorea/README.md:
+   85: - In `views/home/index.html.erb`, replace the div button with the following code: `<%= button_to "Throw a Pokeball!", capture_path(id: @pokemon), :class => "button medium", :method => :patch %>`
+
+/Users/Taejin/ruby/fa19-proj1-CptKorea/app/views/home/index.html.erb:
+   10:   <div><%= button_to "Throw a Pokeball!", capture_path(id: @pokemon), :class => "button medium", :method => :patch %></div>
+
+/Users/Taejin/ruby/fa19-proj1-CptKorea/log/development.log:
+    <binary>
+
+8 matches across 4 files
